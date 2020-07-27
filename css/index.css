@@ -1,0 +1,292 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 219px;
+}
+
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    background-color: plum;
+    overflow: hidden;
+}
+
+.focus ul {
+    width: 9999px;
+}
+
+.arrow_1 {
+    position: absolute;
+    width: 24px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 36px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.icomoon {
+    font-family: 'icomoon';
+}
+
+.arrow-r {
+    right: 0px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    width: 8px;
+    height: 8px;
+    float: left;
+    /* background-color: #ffffff; */
+    /* 白色边框透明 */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #cccccc;
+}
+
+.news-hd {
+    height: 32px;
+    /* dotted 点线 dashed 虚线 */
+    border-bottom: 1px dotted #cccccc;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.news-hd a {
+    line-height: 32px !important;
+    font-size: 12px !important;
+}
+
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+
+.news-bd li {
+    height: 23px;
+}
+
+.lifeservice {
+    height: 208px;
+    border: 1px solid #cccccc;
+    border-top: none;
+    overflow: hidden;
+}
+
+/* 四个盒子的长度超出了lifeservice盒子的长度，所以装不下四个 */
+
+/* 这里设置ul的长度稍长一点以保证能装下四个盒子 溢出的边框隐藏*/
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* 整个盒子都是a 所以让a撑满整个盒子 */
+
+.lifeservice li a {
+    display: block;
+    /* 解决i外边框溢出的问题 */
+    overflow: hidden;
+    height: 100%;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+
+.service_icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.service_icon_huafei {
+    background-position: -17px -16px;
+}
+
+.service_icon_feiji {
+    background-position: -78px -16px;
+}
+
+.bargin {
+    height: 75px;
+    margin-top: 8px;
+}
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+    background-color: pink;
+}
+
+.recom-hd {
+    width: 200px;
+    height: 100%;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recom-hd img {
+    width: 57px;
+    height: 57px;
+    margin: 30px 0 10px 0px;
+}
+
+.recom-hd h3 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.recom-bd {
+    width: 1000px;
+    height: 100%;
+    background-color: #ebebeb;
+}
+
+.recom-bd li {
+    float: left;
+    width: 249px;
+    border-right: 1px solid #cccccc;
+    height: 145px;
+    margin-top: 10px;
+}
+
+.recom-bd li:nth-child(4) {
+    border-right: none;
+}
+
+/* floor */
+
+.box-hd {
+    margin-top: 25px;
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    line-height: 30px;
+}
+
+.box-hd h3 {
+    color: #c81623;
+    font-size: 18px;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0px 15px;
+}
+
+.box-bd {
+    height: 360px;
+}
+
+.box-bd li {
+    overflow: hidden;
+}
+
+.box-bd img {
+    transition: 0.5s;
+}
+
+.box-bd img:hover {
+    transform: translateX(8px);
+}
+
+.tab-con li {
+    float: left;
+    height: 360px;
+    width: 220px;
+}
+
+.tab-con .br {
+    z-index: 999;
+    border-right: 1px solid #cccccc;
+}
+
+.tab-con li:nth-child(1) {
+    width: 209px;
+}
+
+.tab-con li:nth-child(2) {
+    width: 329px;
+}
+
+.tab-con li:nth-child(5) {
+    width: 219px;
+}
+
+.tab-con-list {
+    height: 99px;
+    margin-bottom: 15px;
+}
+
+.tab-con-list li {
+    width: 86px !important;
+    height: 32px;
+    margin-left: 10px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #cccccc;
+}
+
+.fixedtool {
+    position: fixed;
+    width: 66px;
+    top: 300px;
+    left: 50%;
+    margin-left: -676px;
+}
+
+.fixedtool li {
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    color: #ffffff;
+    background-color: #c81622;
+}

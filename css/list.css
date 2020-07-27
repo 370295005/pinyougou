@@ -1,0 +1,154 @@
+/* 列表页的css */
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    height: 32px;
+    border-left: 2px solid #b1191a;
+    padding: 5px 0 0 15px;
+}
+
+.sk_list li {
+    line-height: 45px;
+    float: left;
+    margin: 0 30px;
+}
+
+.sk_list li a {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.sk_list li a:hover {
+    color: #c81523;
+}
+
+.sk_con li {
+    line-height: 45px;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 20px;
+    font-family: 'icomoon';
+}
+
+/* 列表页内容 */
+
+.sk_bd {
+    margin-top: 25px;
+}
+
+.sk_bd ul {
+    width: 1212px;
+}
+
+.sk_goods {
+    margin-right: 13px;
+    float: left;
+    position: relative;
+    width: 288px;
+    height: 458px;
+    border: 1px solid #e12228;
+}
+
+.sk_goods_title {
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+    padding: 10px 10px 0px;
+}
+
+.sk_goods_price {
+    padding: 10px 5px 0px 5px;
+}
+
+.sk_goods_price em {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.sk_goods_price del {
+    color: #a4a4a4;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sk_goods_progress {
+    padding: 0px 10px;
+}
+
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #b1191a;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.bar_in {
+    height: 10px;
+    width: 87%;
+    background-color: #f24349;
+}
+
+.sk_goods_buy {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    background-color: #b1191a;
+    font-size: 18px;
+}
+
+.page {
+    margin: 40px 0px;
+    text-align: center;
+}
+.page_num a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    background-color: #f7f7f7;
+    line-height: 36px;
+}
+
+.page_num a:nth-child(1),.page_num a:nth-child(8){
+    width: 83px;
+}
+
+
+
+.page_num a:nth-child(7),.page_num .current{
+    border: 1px solid transparent;
+    background-color: #fff;
+}
+
+.page_skip input{
+    width: 46px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.page_skip input:focus{
+    width: 86px;
+    height: 36px;
+    border: 1px solid #6dd1ff;
+    text-align: center;
+
+}
+.page_skip button{
+    width: 54px;
+    height: 36px;
+    border: 1px solid #cccccc;
+}
